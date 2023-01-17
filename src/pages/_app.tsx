@@ -5,6 +5,7 @@ import { useEffect, useState } from 'react'
 import { useRouter } from 'next/router'
 import { AuthProvider } from '@/lib/useAuth'
 import Footer from '@/components/Footer'
+import 'flowbite'
 
 
 function App({ Component, pageProps }: AppProps) {
